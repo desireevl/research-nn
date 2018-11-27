@@ -1,13 +1,7 @@
 BBox-Label-Tool
 ===============
 
-A simple tool for labeling object bounding boxes in images, implemented with Python Tkinter.
-
-**Updates:**
-- 2017.5.21 Check out the ```multi-class``` branch for a multi-class version implemented by @jxgu1016
-
-**Screenshot:**
-![Label Tool](./screenshot.png)
+A simple (but kind of shitty) tool for labeling object bounding boxes in images, implemented with Python Tkinter.
 
 Data Organization
 -----------------
@@ -40,3 +34,13 @@ Usage
   - To delete all existing bounding boxes in the image, simply click `ClearAll`.
 3. After finishing one image, click `Next` to advance. Likewise, click `Prev` to reverse. Or, input an image id and click `Go` to navigate to the speficied image.
   - Be sure to click `Next` after finishing a image, or the result won't be saved. 
+
+
+Important Info
+-----
+Run order
+1. change_file_type.py: changes the file type of all the images in the Images directory from .jpg to .JPEG (required for the labelling tool to work)
+2. main.py: run this file for the GUI to pop up to start labelling
+3. converter.py: this creates text files with all the images in the given directory, needed for YOLOnet to run
+
+If something is not working make sure that you check that all the folder/image names and extensions are as the main.py wants them. This tool and YOLOnet are very very fussy.
