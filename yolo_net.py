@@ -1,1 +1,0 @@
-# https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/

@@ -1,4 +1,7 @@
 # code source: https://www.learnopencv.com/blob-detection-using-opencv-python-c/
+# this code purely uses openCV
+# this is a way to try to detect the nuceli based on shapes/colours etc
+# possible to tune the parameters in a way to detect the nuclei however difficult to get right
 
 import cv2
 import numpy as np
