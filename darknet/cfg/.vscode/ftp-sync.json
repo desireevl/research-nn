@@ -1,0 +1,24 @@
+{
+    "remotePath": "/home/desireevogtlee/research/darknet/cfg/",
+    "host": "35.185.202.29",
+    "username": "desireevogtlee",
+    "password": "",
+    "port": 22,
+    "secure": true,
+    "protocol": "sftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": "/home/desiree/.ssh/gcp_rsa",
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": true,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}
